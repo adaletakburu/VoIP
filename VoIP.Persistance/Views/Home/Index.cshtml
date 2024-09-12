@@ -1,0 +1,21 @@
+﻿<form method="post" asp-controller="Service" asp-action="StartService">
+    <button type="submit">Start Service</button>
+</form>
+
+<form method="post" asp-controller="Service" asp-action="StopService">
+    <button type="submit">Stop Service</button>
+</form>
+<div>
+    <p>Service Status: <span id="status"></span></p>
+    <button onclick="getStatus()">Check Status</button>
+</div>
+
+<script>
+    function getStatus() {
+        fetch('/Service/GetStatus')
+            .then(response => response.text())
+            .then(status => {
+                document.getElementById('status').innerText = status;
+            });
+    }
+</script>

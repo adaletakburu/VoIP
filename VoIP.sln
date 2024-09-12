@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoIP.Persistance", "VoIP.Persistance\VoIP.Persistance.csproj", "{2C129EBD-D3A3-4EF5-926E-593461C9975E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C129EBD-D3A3-4EF5-926E-593461C9975E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C129EBD-D3A3-4EF5-926E-593461C9975E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C129EBD-D3A3-4EF5-926E-593461C9975E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C129EBD-D3A3-4EF5-926E-593461C9975E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5B07EEE-457F-4F4B-8A8A-454840200205}
+	EndGlobalSection
+EndGlobal
